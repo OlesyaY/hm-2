@@ -1,12 +1,12 @@
 :root {
-    --accent-color: #2196F3;
     --main-color: #212121;
+    --accent-color: #2196F3;
     --secondary-color: #757575;
 }
 
 body {
-    background-color: #E5E5E5;
     color: var(--main-color);
+    background-color: #E5E5E5;
     font-family: Roboto, sans-serif;
 }
 
@@ -22,13 +22,11 @@ body {
     color: var(--main-color);
 }
 
-.link-logo,
-.link-text-logo {
-    font-family: Raleway, sans-serif;
-    font-weight: 700;
+.link-logo {
     font-size: 26px;
+    font-weight: 700;
     line-height: 1.19;
-
+    font-family: Raleway, sans-serif;
 }
 
 .active {
@@ -36,55 +34,52 @@ body {
 }
 
 /* site nav */
-.site-nav .link:hover,
-.site-nav .link:focus {
-    color: var(--accent-color);
-}
-
-.site-contact .link {
-    color: var(--secondary-color);
-}
-
-.site-contact .link:hover,
-.site-contact .link:focus {
-    color: var(--accent-color);
-}
-
-.site-nav,
-.site-contact {
+.list {
     font-family: Roboto, sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
 }
 
+.list .link:hover,
+.list .link:focus {
+    color: var(--accent-color);
+}
 
-/* main content */
-.section {
+.list .list-link {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.site-contact .link {
+    color: var(--secondary-color);
+}
+
+/* main section */
+.main-section {
     color: #FFFFFF;
     background-color: #2F303A;
 }
 
-.content-description {
+.main-section--description {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
 }
 
-
-.btn {
-    color: #FFFFFF;
-    background-color: var(--accent-color);
+.main-section--btn {
+    cursor: pointer;
     font-weight: 700;
     font-size: 16px;
+    color: #FFFFFF;
     line-height: 1.87;
+    background-color: var(--accent-color);
 }
 
-.button {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
+.btn {
     cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.62;
 }
 
 .caption {
@@ -129,18 +124,21 @@ body {
 }
 
 /* footer */
-.footer {
+.footer-content {
     background-color: #2F303A;
 }
 
-.address .address-text {
+.address-content {
+    font-style: normal;
+}
+
+.address-content .address-text {
     color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
 }
 
 .link-text {
     color: #FFFFFF;
-}
-
-.list .list-link {
-    color: rgba(255, 255, 255, 0.6);
 }
