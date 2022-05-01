@@ -3,11 +3,13 @@
     --main-color: #212121;
     --secondary-color: #757575;
 }
+
 .accent-text {
     color: var(--accent-color);
 }
+
 .secondary-color-text {
-color: var(--secondary-color);
+    color: var(--secondary-color);
 }
 
 body {
@@ -15,18 +17,20 @@ body {
     color: var(--main-color);
     font-family: Roboto, sans-serif;
 }
+
 .link {
     color: var(--main-color);
 }
+
 .link-logo,
 .link-text-logo {
     font-family: Raleway, sans-serif;
-     font-weight: 700;
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-  
+
 }
- 
+
 .active {
     color: var(--accent-color);
 }
@@ -38,12 +42,14 @@ body {
 .site-nav .link:focus {
     color: var(--accent-color);
 }
+
 .site-contact .link {
     color: var(--secondary-color);
 }
+
 .site-contact .link:hover,
 .site-contact .link:focus {
- color: var(--accent-color);
+    color: var(--accent-color);
 }
 
 .site-nav,
@@ -51,22 +57,22 @@ body {
     font-family: Roboto, sans-serif;
     font-weight: 500;
     font-size: 14px;
-    line-height:1.14;
+    line-height: 1.14;
 }
 
 
 /* main content */
 .section {
-   color: #FFFFFF;
-   background-color: #2F303A;
+    color: #FFFFFF;
+    background-color: #2F303A;
 }
-   
+
 .content-description {
     font-weight: 900;
     font-size: 44px;
-    line-height:1.36;
+    line-height: 1.36;
 }
-   
+
 
 .btn {
     color: #FFFFFF;
@@ -76,19 +82,67 @@ body {
     line-height: 1.87;
 }
 
+.button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    cursor: pointer;
+}
+
+.caption {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+}
+
+.heading {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.text {
+    font-size: 16px;
+    line-height: 1.87;
+}
+
+.caption-list {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.list-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+}
+
+.position {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.35;
+}
+
 /* footer */
 .footer {
     background-color: #2F303A;
 }
+
 .address .address-text {
     color: #FFFFFF;
 }
+
 .link-text {
     color: #FFFFFF;
 }
+
 .list .list-link {
     color: rgba(255, 255, 255, 0.6);
 }
-
-
-
