@@ -119,11 +119,11 @@ body {
 
 .description {
     line-height: 1.71;
+    font-size: 14px;
 }
 
 .list-name {
     font-weight: 500;
-    font-size: 16px;
     line-height: 1.18;
 }
 
