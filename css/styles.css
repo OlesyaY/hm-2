@@ -6,7 +6,6 @@
 
 body {
     color: var(--main-color);
-    background-color: #E5E5E5;
     font-family: Roboto, sans-serif;
 }
 
@@ -18,8 +17,13 @@ body {
     color: var(--secondary-color);
 }
 
+.font-medium {
+    font-weight: 500;
+}
+
 .link {
     color: var(--main-color);
+    text-decoration: none;
 }
 
 .link-logo {
@@ -27,6 +31,7 @@ body {
     font-weight: 700;
     line-height: 1.19;
     font-family: Raleway, sans-serif;
+    text-decoration: none;
 }
 
 .active {
@@ -36,9 +41,9 @@ body {
 /* site nav */
 .list {
     font-family: Roboto, sans-serif;
-    font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
+
 }
 
 .list .link:hover,
@@ -46,9 +51,10 @@ body {
     color: var(--accent-color);
 }
 
-.list .list-link {
+.address-content .list .list-link {
     color: rgba(255, 255, 255, 0.6);
 }
+
 
 .site-contact .link {
     color: var(--secondary-color);
@@ -64,6 +70,8 @@ body {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
 }
 
 .main-section--btn {
@@ -72,6 +80,7 @@ body {
     font-size: 16px;
     color: #FFFFFF;
     line-height: 1.87;
+    font-family: inherit;
     background-color: var(--accent-color);
 }
 
@@ -80,6 +89,7 @@ body {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.62;
+    font-family: inherit;
 }
 
 .caption {
@@ -95,7 +105,6 @@ body {
 }
 
 .text {
-    font-size: 16px;
     line-height: 1.87;
 }
 
@@ -103,11 +112,10 @@ body {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
+    text-transform: uppercase;
 }
 
 .description {
-    font-weight: 400;
-    font-size: 14px;
     line-height: 1.71;
 }
 
@@ -118,7 +126,6 @@ body {
 }
 
 .position {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.35;
 }
@@ -134,7 +141,6 @@ body {
 
 .address-content .address-text {
     color: #FFFFFF;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
 }
