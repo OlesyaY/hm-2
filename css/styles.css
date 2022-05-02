@@ -47,7 +47,9 @@ body {
 }
 
 .list .link:hover,
-.list .link:focus {
+.list .link:focus,
+.address-content .list .link:hover,
+.address-content .list .link:focus {
     color: var(--accent-color);
 }
 
